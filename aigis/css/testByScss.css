@@ -1,0 +1,21 @@
+body {
+  background-color: #eabffc; }
+
+.listBox {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.sibira {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-image: url("../res/aigis_background.png");
+  background-repeat: no-repeat;
+  width: 705px;
+  height: 830px; }
+
+.formStyle {
+  position: absolute;
+  top: 80px;
+  left: 100px; }

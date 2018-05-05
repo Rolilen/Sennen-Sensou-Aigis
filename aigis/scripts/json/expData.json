@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "rarity" : "iron",
+            "exp" : [
+
+            ]
+        },
+        {
+            "rarity" : "bronze",
+            "exp" : [
+                
+            ]
+   
+        },
+        {
+            "rarity" : "silver",
+            "exp" : [
+                
+            ]
+   
+        },
+        {
+            "rarity" : "gold",
+            "exp" : [
+                
+            ]
+   
+        },
+        {
+            "rarity" : "platinum",
+            "exp" : [
+                
+            ]
+   
+        },
+        {
+            "rarity" : "black",
+            "exp" : [
+                
+            ]
+        }
+    ]
+}

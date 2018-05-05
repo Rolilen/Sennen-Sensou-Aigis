@@ -2,23 +2,91 @@
 <html>
     <head>
         <title> The First Example: Hello, World </title>
+        <link rel = "stylesheet" href = "css/testByScss.css" type = "text/css">
+        <script language="JavaScript" src="scripts/collectCalculate.js"> </script>
     </head>
     <body>
-        <h2> This line is HTML </h2>
+        <h2> 千年戦争アイギス　いろいろな計算機 </h2>
+        <div class = "sibira"> </div>
 
-        <script language="JavaScript">
-        //<!--
-        document.write("Hello, World.This sentence is written using JavaScript.");
-        // Text on the right of 2 slashes is comment
-        /* This is comment
-        that occur more than 1 line
-        */
-        //-->
-        </script>
+        <div class = "formStyle">
+            <form name = "collectForm">
+                <div style="top: 120px;">
+                        <span style="font-family: Verdana, sans-serif; margin-right:5px;">ユニット経験値</span> <br>
+                    <span style="font-family: Verdana, sans-serif; margin-right:5px;">レアリティ：</span>
+                    <select name="expRareSelect">
+                        <option value = "iron">アイアン</option>
+                        <option value = "bronze">ブロンズ</option>
+                        <option value = "silver">シルバー</option>
+                        <option value = "gold">ゴールド</option>
+                        <option value = "platinum">プラチナ&サファイア</option>
+                        <option value = "black">ブラック</option>
+                    </select> <p>
+                    
+                    <table border = "1" cellpadding = "2" style = "border:1px #00DBDB ; text-align:center;">
+                        <tr>
+                            <td colspan = "2">素材</td>
+                        </tr>
+                        <tr>
+                            <td style = "background-color: #aed9e6">
+                                <img src="./res/expUI/siro_armor.png"  width = "50" height = "49"> <br>
+                                <span style="font-size:10px; font-family: sans-serif;">プラチナアーマー</span>
+                            </td>
+                            <td>
+                                <input type = "text" name = "siroArmor"> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style = "background-color: #aed9e6">
+                                <img src="./res/expUI/blcak_armor.png"  width = "50" height = "49"> <br>
+                                <span style="font-size:10px; font-family: sans-serif;">ブラックアーマー</span>
+                            </td>
+                            <td>
+                                <input type = "text" name = "blackArmor"> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style = "background-color: #aed9e6">
+                                <img src="./res/expUI/sen_kitsune.png"  width = "50" height = "49"> <br>
+                                <span style="font-size:10px; font-family: sans-serif;">千狐</span>
+                            </td>
+                            <td>
+                                <input type = "text" name = "senKitsune"> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style = "background-color: #aed9e6">
+                                <img src="./res/expUI/tsubasa.png"  width = "50" height = "49"> <br>
+                                <span style="font-size:10px; font-family: sans-serif;">ツバサ</span>
+                            </td>
+                            <td>
+                                <input type = "text" name = "tsubasa"> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style = "background-color: #aed9e6">
+                                <img src="./res/expUI/hani.png"  width = "50" height = "49"> <br>
+                                <span style="font-size:10px; font-family: sans-serif;">ハニー</span>
+                            </td>
+                            <td>
+                                <input type = "text" name = "hani"> <br>
+                            </td>
+                        </tr>
+                    </table>
+
+                    
+                </div>
+                
+                <div>
+
+                </div>
+
+            </form>
+        </div>
+
         <noscript>
-            Sorry, but your browser doesn't run JavaScript.
         </noscript>
 
-        <h2> This line is HTML </h2>
+        
     </body>
 </html>
