@@ -19,3 +19,11 @@ body {
   position: absolute;
   top: 80px;
   left: 100px; }
+
+.tableIconName {
+  font-size: 11px;
+  font-family: sans-serif; }
+
+.tableExplain {
+  font-size: 15px;
+  font-family: sans-serif; }
